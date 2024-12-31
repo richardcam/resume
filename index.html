@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Terminal</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <header class="p-4 border-b border-gray-600">
+    <h1 class="text-2xl" style="color: #66ff66;">$ echo "Ricardo Campos"</h1>
+    <p style="color: #66ff66;">Welcome to my resume terminal!</p>
+    <div class="floating-profile">
+        <img src="assets/CCF_000984.jpg" alt="Perfil" />
+    </div>
+</header>
+
+<main>
+    <section>
+        <ul>
+            <li class="slide-in"><span style="color: #66ff66;">$ cat <b>Personal_Information</b>.txt</span></li>
+            <li class="slide-in"><b>Name</b>: Edgar Ricardo <b>Last Name</b>: Campos Villalobos</li>
+            <li class="slide-in"><b>Email</b>: ing.edgar.ricardo@gmail.com</li>
+            <li class="slide-in"><b>Mobile</b>: +52 332 056 8062</li>
+        </ul>
+
+        <ul class="mt-4">
+            <li class="slide-in"><span style="color: #66ff66;">$ cat <b>Profile</b>.log</span></li>
+            <li class="slide-in">As a Linux System Administrator with a foundational mid understanding of DevOps and Cloud. I'm seeking a role to expand my expertise. I'm committed to continuous learning, striving to acquire the skills and knowledge that enable me to deliver valuable solutions to organizations. My goal is to exceed customer expectations by honing my technical abilities and contributing effectively to a dynamic IT environment.</li>
+        </ul>
+
+        <ul class="mt-4">
+            <li class="slide-in"><span style="color: #66ff66;">$ cat "<b>Experience</b>"</span></li>
+            <li class="slide-in">With over 6+ years of hands-on experience, I've honed my expertise in core technologies like scripting, operating systems, CI/CD pipelines, source control, and container orchestration. In the past two years, I've expanded my skill set to include foundational areas such as infrastructure as code, containerization, monitoring, and cloud platforms.</li>
+            <li class="slide-in">I am keen to deepen my understanding of these foundational skills, as I have had limited opportunities to work with these tools. By combining my core skills and foundational skills, I am confident in my ability to deliver innovative and scalable solutions.</li>
+        </ul>
+
+
+        <ul>
+            <li class="slide-in"><span style="color: #66ff66;">$ echo "<b>Core Skill</b>"</span></li>
+            <li class="slide-in">Can you click on the <span class="link-box" style="color: #66ff66;">green</span> category? You can review my work there. If you don’t see other green categories, it’s because I’m still working on uploading the files.</li>
+            <li class="slide-in">- <b>Scripting</b>: 
+                <span class="link-box" data-link="https://github.com/richardcam/bsh-scripts.git">Bash</span>, 
+                <span class="link-box" data-link="#">Python</span>
+            </li>
+            <li class="slide-in">- <b>Operating System</b>: RHEL, Debian, Ubuntu</li>
+            <li class="slide-in">- <b>CI/CD</b>: Jenkins, Gitlab</li>
+            <li class="slide-in">- <b>SCM</b>: Git, GitHub</li>
+            <li class="slide-in">- <b>Container orchestration</b>: Openshift</li>
+            <li class="slide-in">- <b>Planning & Collaboration</b>: Jira, Slack, Zoom, Microsoft Teams</li>
+        </ul>
+        <script src="js/script.js"></script>
+        <ul class="mt-4">
+            <li class="slide-in"><span style="color: #66ff66;">$ echo "<b>Foundational Skill</b>"</span></li>
+            <li class="slide-in">- <b>Infrastructure as Code (IaC)</b>: Terraform, Ansible</li>
+            <li class="slide-in">- <b>Containerization</b>: Docker, Podman, Kubernetes</li>
+            <li class="slide-in">- <b>Monitoring</b>: Dynatrace</li>
+            <li class="slide-in">- <b>Cloud Platform</b>: AWS</li>
+        </ul>
+
+        <ul class="mt-4">
+            <li class="slide-in"><span style="color: #66ff66;">$ less "<b>Job Experience</b>"</span></li>
+            <li class="slide-in"># ---------------------------------------------------------</li>
+            <li class="slide-in"><b>Client</b>: Santander [Santander Digital Services Mexico] | DevOps Engineer - Analyst III | Oct 2022 - Jun 2024</li>
+            <li class="slide-in">--- Activities ---</li>
+            <li class="slide-in"><b>24/7 Support:</b> Provided periodic production workload support for Santander.</li>
+            <li class="slide-in"><b>ServiceNow:</b> Utilized for IT service management activities.</li>
+            <li class="slide-in"><b>OpenShift:</b> Managed deployments and configurations via dashboard and CLI.</li>
+            <li class="slide-in"><b>GitLab:</b> Used runners for manual and automated deployments.</li>
+            <li class="slide-in"><b>Jenkins:</b> Managed pipeline deployments and manual interventions.</li>
+            <li class="slide-in"><b>Bash Scripting:</b> Developed Bash scripts to automate OpenShift processes, including:</li>
+            <li class="slide-in">- User connection.</li>
+            <li class="slide-in">- Policy egress enablement.</li>
+            <li class="slide-in">- Project template creation (config-service-multibackend, sireta-bridge-service, Light-gateway).</li>
+            <li class="slide-in">- Image installation (JavaSE, AMQ Local).</li>
+            <li class="slide-in">- Microservice management (restart, secret creation, volume assignment, keystore generation, YAML updates, log retrieval, autoscaling).</li>
+            <li class="slide-in"><b>MobaXterm:</b> Used to run Linux-generated Bash scripts.</li>
+            <li class="slide-in"><b>PyCharm:</b> Leveraged for Python script development.</li>
+            <li class="slide-in"><b>Django:</b> Developed a self-service portal for the team, integrating with OpenShift via API for seamless connectivity.</li>
+
+            <h2>> Additional Notes:</h2>
+            <ul>
+                <li class="slide-in">- Most OpenShift installation instructions were provided by developers.</li>
+                <li class="slide-in">- GitHub Actions deployments were contingent upon necessary approvals.</li></ul>
+        </ul>
+
+        <ul class="mt-4">
+            <li class="slide-in"># ---------------------------------------------------------</li>
+            <li class="slide-in"><b>Client</b>: TCS [Tata Consulting Services] | DevOps Engineer & SysAdmin Linux | Nov 2021 - Oct 2022</li>
+            <li class="slide-in">--- Activities ---</li>
+            <li class="slide-in"><b>Bilingual Support:</b> Translated between Spanish and English as needed.</li>
+            <li class="slide-in"><b>Progress Reports:</b> Generated daily reports for the project manager.</li>
+            <li class="slide-in"><b>Server Management:</b> Applied Linux System Administration expertise.</li>
+            <li class="slide-in"><b>Scripting:</b> Developed Python and Bash scripts for automation and team support.</li>
+        </ul>
+
+        <ul class="mt-4">
+            <li class="slide-in"># ---------------------------------------------------------</li>
+            <li class="slide-in"><b>Client</b>: IBM [International Business Machines] | SysAdmin Linux & Jr. DevOps | May 2016 - Nov 2021</li>
+            <li class="slide-in">--- Activities ---</li>
+            <li class="slide-in"><b>Linux Administration:</b></li>
+            <li class="slide-in">- Internals and administration</li>
+            <li class="slide-in">- Static and dynamic code testing for security</li>
+            <li class="slide-in">- Compliance support for IBM systems</li>
+            <li class="slide-in">- Security support for Windows, RedHat and Ubuntu administration</li>
+            <li class="slide-in">- Automation of security tasks using shell scripting</li>
+            <li class="slide-in">- Internals and administration</li>
+            <li class="slide-in"><b>Hardware and Insfraestructure:</b></li>
+            <li class="slide-in">- Installation and configuration of IBM Power Systems (Power 7 & 8) and Lenovo servers</li>
+            <li class="slide-in">- On-site support for installation, configuration, and consulting</li>
+            <li class="slide-in">- Troubleshooting and bug fixing</li>
+            <li class="slide-in"><b>Automation and Development:</b></li>
+            <li class="slide-in">- Automation of manufacturing processes using Bash scripting and Git for version control</li>
+            <li class="slide-in">- Static and dynamic code testing for security</li>
+            <li class="slide-in">- Compliance support for IBM systems</li>
+            <li class="slide-in"><b>Additional Experience:</b></li>
+            <li class="slide-in">- Data mining (route creation, page optimization, client communication)</li>
+            <li class="slide-in">- Image cloning with DBRL (Toshiba, Lenovo: USAA & Morgan Project)</li>
+            <li class="slide-in">- On-site support for national clients (The Home Depot, Schlumberger)</li>
+        </ul>
+
+        <div class="mt-8">
+            <span style="color: #66ff66;">$ echo "<strong>Education</strong>"</span>
+            <ul>
+                <li class="slide-in"><strong>Bachelor of Engineering in Telematics</strong> | Puerto Vallarta, Jalisco.</li>
+                <li class="slide-in">Centro Universitario de la Costa | Start: 2008 - Graduated: May 2013</li>
+            </ul>
+        </div>
+    </section>
+
+</main>
+
+<footer class="p-4 border-t border-gray-600">
+    <p>© 2024 Edgar Ricardo Campos Villalobos. All rights reserved.</p>
+    <div class="flex gap-4 mt-2">
+        <section>Visit my social media:
+        <a href="https://github.com/richardcam?tab=repositories" class="text-blue-400"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ricardo-campos-villalobos/" class="text-blue-400"><i class="fab fa-linkedin"></i></a>
+        </section>
+    </div>
+</footer>
+</body>
+</html>
